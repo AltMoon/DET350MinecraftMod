@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "det:testdim_portal_ew"
+    },
+    "axis=x": {
+      "model": "det:testdim_portal_ns"
+    },
+    "inventory": {
+      "model": "det:testdim_portal_ns"
+    }
+  }
+}

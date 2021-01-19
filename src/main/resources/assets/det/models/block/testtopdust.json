@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "det:blocks/wasteland_dust_bottom",
+    "up": "det:blocks/wasteland_dust_top",
+    "north": "det:blocks/wasteland_dust_side",
+    "east": "det:blocks/wasteland_dust_side",
+    "south": "det:blocks/wasteland_dust_side",
+    "west": "det:blocks/wasteland_dust_side",
+    "particle": "det:blocks/wasteland_dust_bottom"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "_fv": 6,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "Blocks.DIAMOND_BLOCK"
+    },
+    "portalParticles": {
+      "value": "FIREWORKS_SPARK"
+    },
+    "portalLuminance": 0.25,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Test Dim Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "testlighter",
+    "portalTexture": "testportaltexture",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:TestBiome"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:WastlandDust"
+    },
+    "secondaryFillerBlock": {
+      "value": "CUSTOM:WastlandDust"
+    },
+    "tertiaryFillerBlock": {
+      "value": "CUSTOM:WastlandDust"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:BlackTar"
+    },
+    "airColor": {
+      "value": -12106459,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "hasWeather": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "dimensionMusic": {
+      "value": ""
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "group": "det",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "det:wastlandwoodchip"
+    },
+    {
+      "item": "det:wastlandwoodchip"
+    },
+    {
+      "item": "det:wastlandwoodchip"
+    },
+    {
+      "item": "det:wastlandwoodchip"
+    }
+  ],
+  "result": {
+    "item": "det:wastelandwoodplanks",
+    "count": 1
+  }
+}

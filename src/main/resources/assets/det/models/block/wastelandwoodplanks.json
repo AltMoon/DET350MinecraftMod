@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "det:blocks/wastland_wood_plank",
+    "up": "det:blocks/wastland_wood_plank",
+    "north": "det:blocks/wastland_wood_plank",
+    "east": "det:blocks/wastland_wood_plank",
+    "south": "det:blocks/wastland_wood_plank",
+    "west": "det:blocks/wastland_wood_plank",
+    "particle": "det:blocks/wastland_wood_plank"
+  }
+}
