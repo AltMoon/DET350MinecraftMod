@@ -65,7 +65,6 @@ import net.minecraft.block.Block;
 
 import net.mcreator.det.item.ItemTestDim;
 import net.mcreator.det.block.BlockWastlandDust;
-import net.mcreator.det.block.BlockBlackTar;
 import net.mcreator.det.ElementsDET;
 
 import javax.annotation.Nullable;
@@ -114,6 +113,24 @@ public class WorldTestDim extends ElementsDET.ModElement {
 			this.biomeProvider = new BiomeProviderCustom(this.world.getSeed());
 			this.nether = NETHER_TYPE;
 			this.hasSkyLight = true;
+		}
+
+		@Override
+		public void calculateInitialWeather() {
+		}
+
+		@Override
+		public void updateWeather() {
+		}
+
+		@Override
+		public boolean canDoLightning(net.minecraft.world.chunk.Chunk chunk) {
+			return false;
+		}
+
+		@Override
+		public boolean canDoRainSnowIce(net.minecraft.world.chunk.Chunk chunk) {
+			return false;
 		}
 
 		@Override
@@ -719,7 +736,7 @@ public class WorldTestDim extends ElementsDET.ModElement {
 	public static class ChunkProviderModded implements IChunkGenerator {
 		private static final IBlockState STONE = BlockWastlandDust.block.getDefaultState();
 		private static final IBlockState STONE2 = BlockWastlandDust.block.getDefaultState();
-		private static final IBlockState FLUID = BlockBlackTar.block.getDefaultState();
+		private static final IBlockState FLUID = Blocks.AIR.getDefaultState();
 		private static final IBlockState AIR = Blocks.AIR.getDefaultState();
 		private static final IBlockState BEDROCK = Blocks.BEDROCK.getDefaultState();
 		private static final int SEALEVEL = 63;

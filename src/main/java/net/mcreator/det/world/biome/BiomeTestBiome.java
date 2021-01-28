@@ -17,7 +17,6 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.Block;
 
 import net.mcreator.det.block.BlockWastlandDust;
-import net.mcreator.det.block.BlockWastelandWood;
 import net.mcreator.det.block.BlockTestTopDust;
 import net.mcreator.det.ElementsDET;
 
@@ -49,9 +48,9 @@ public class BiomeTestBiome extends ElementsDET.ModElement {
 			decorator.generateFalls = true;
 			decorator.treesPerChunk = 0;
 			decorator.flowersPerChunk = 0;
-			decorator.grassPerChunk = 4;
+			decorator.grassPerChunk = 5;
 			decorator.deadBushPerChunk = 0;
-			decorator.mushroomsPerChunk = 1;
+			decorator.mushroomsPerChunk = 0;
 			decorator.bigMushroomsPerChunk = 0;
 			decorator.reedsPerChunk = 0;
 			decorator.cactiPerChunk = 0;
@@ -151,7 +150,7 @@ public class BiomeTestBiome extends ElementsDET.ModElement {
 							state = world.getBlockState(genhPos);
 							if (state.getBlock().isAir(state, world, genhPos) || state.getBlock() == Blocks.AIR.getDefaultState().getBlock()
 									|| state.getBlock() == Blocks.AIR.getDefaultState().getBlock()) {
-								this.setBlockAndNotifyAdequately(world, position.up(genh), BlockWastelandWood.block.getDefaultState());
+								this.setBlockAndNotifyAdequately(world, position.up(genh), Blocks.AIR.getDefaultState());
 							}
 						}
 						if (rand.nextInt(4) == 0 && height > 5) {
@@ -187,7 +186,7 @@ public class BiomeTestBiome extends ElementsDET.ModElement {
 
 		@Override
 		protected boolean canGrowInto(Block blockType) {
-			return blockType.getDefaultState().getMaterial() == Material.AIR || blockType == BlockWastelandWood.block.getDefaultState().getBlock()
+			return blockType.getDefaultState().getMaterial() == Material.AIR || blockType == Blocks.AIR.getDefaultState().getBlock()
 					|| blockType == Blocks.AIR.getDefaultState().getBlock() || blockType == BlockTestTopDust.block.getDefaultState().getBlock()
 					|| blockType == BlockWastlandDust.block.getDefaultState().getBlock();
 		}

@@ -32,10 +32,10 @@
       "value": "CUSTOM:WastlandDust"
     },
     "tertiaryFillerBlock": {
-      "value": "CUSTOM:WastlandDust"
+      "value": "Blocks.AIR"
     },
     "fluidBlock": {
-      "value": "CUSTOM:BlackTar"
+      "value": "Blocks.AIR"
     },
     "airColor": {
       "value": -12106459,
@@ -43,7 +43,7 @@
     },
     "canRespawnHere": false,
     "hasFog": true,
-    "hasWeather": true,
+    "hasWeather": false,
     "isDark": false,
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",
