@@ -3,8 +3,8 @@
   "_type": "fluid",
   "definition": {
     "name": "BlackTar",
-    "textureStill": "tar_still",
-    "textureFlowing": "tar_flow",
+    "textureStill": "wasteland_tar",
+    "textureFlowing": "wasteland_tar",
     "luminosity": 0,
     "density": 1153,
     "viscosity": 7000,

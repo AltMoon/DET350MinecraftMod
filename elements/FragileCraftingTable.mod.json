@@ -2,15 +2,15 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "wasteland_wood_core",
-    "textureTop": "wasteland_wood_core",
-    "textureLeft": "wasteland_wood_bark",
-    "textureFront": "wasteland_wood_bark",
-    "textureRight": "wasteland_wood_bark",
-    "textureBack": "wasteland_wood_bark",
+    "texture": "fragile_crafting_table_bottom",
+    "textureTop": "fragile_crafting_table_top",
+    "textureLeft": "fragile_crafting_table_left",
+    "textureFront": "fragile_crafting_table_front",
+    "textureRight": "fragile_crafting_table_right",
+    "textureBack": "fragile_crafting_table_back",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 5,
+    "rotationMode": 1,
     "hasTransparency": false,
     "transparencyType": "SOLID",
     "mx": 0.0,
@@ -20,27 +20,27 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Wasteland Wood",
+    "name": "Fragile Crafting Table",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "CUSTOM:InfinityTrain"
     },
-    "destroyTool": "Not specified",
-    "affectedBySilkTouch": true,
+    "destroyTool": "axe",
+    "affectedBySilkTouch": false,
     "customDrop": {
-      "value": "CUSTOM:WastlandWoodchip"
+      "value": "CUSTOM:WastelandWoodchip"
     },
-    "dropAmount": 3,
+    "dropAmount": 10,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "WOOD"
+      "value": "ANVIL"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -49,11 +49,11 @@
     "creativePickItem": {
       "value": ""
     },
-    "flammability": 0,
-    "fireSpreadSpeed": 0,
+    "flammability": 50,
+    "fireSpreadSpeed": 5,
     "isLadder": false,
     "slipperiness": 0.6,
-    "reactionToPushing": "NORMAL",
+    "reactionToPushing": "DESTROY",
     "isNotColidable": false,
     "soundOnStep": {
       "value": "WOOD"
@@ -69,9 +69,9 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
-    "hasInventory": false,
+    "hasInventory": true,
     "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
+    "openGUIOnRightClick": true,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,

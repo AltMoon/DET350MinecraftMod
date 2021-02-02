@@ -40,12 +40,12 @@ public class BiomeTestBiome extends ElementsDET.ModElement {
 	}
 	static class BiomeGenCustom extends Biome {
 		public BiomeGenCustom() {
-			super(new Biome.BiomeProperties("Test Biome").setRainfall(0F).setBaseHeight(0.1F).setWaterColor(-8553124).setHeightVariation(0.2F)
+			super(new Biome.BiomeProperties("Test Biome").setRainfall(0F).setBaseHeight(0F).setWaterColor(-8553124).setHeightVariation(0F)
 					.setTemperature(0.5F));
 			setRegistryName("testbiome");
 			topBlock = BlockTestTopDust.block.getDefaultState();
 			fillerBlock = BlockWastlandDust.block.getDefaultState();
-			decorator.generateFalls = true;
+			decorator.generateFalls = false;
 			decorator.treesPerChunk = 0;
 			decorator.flowersPerChunk = 0;
 			decorator.grassPerChunk = 5;

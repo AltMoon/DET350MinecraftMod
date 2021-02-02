@@ -9,7 +9,7 @@
     "undergroundBlock": {
       "value": "CUSTOM:WastlandDust"
     },
-    "generateLakes": true,
+    "generateLakes": false,
     "treeType": 1,
     "vanillaTreeType": "Big trees",
     "minHeight": 7,
@@ -51,8 +51,8 @@
     "deadBushesPerChunk": 0,
     "rainingPossibility": 0.0,
     "temperature": 0.5,
-    "baseHeight": 0.1,
-    "heightVariation": 0.2,
+    "baseHeight": 0.0,
+    "heightVariation": 0.0,
     "spawnBiome": false,
     "biomeWeight": 10,
     "biomeType": "WARM",

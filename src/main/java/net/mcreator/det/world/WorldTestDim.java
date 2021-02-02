@@ -141,7 +141,7 @@ public class WorldTestDim extends ElementsDET.ModElement {
 		@Override
 		@SideOnly(Side.CLIENT)
 		public Vec3d getFogColor(float par1, float par2) {
-			return new Vec3d(0.278431372549, 0.270588235294, 0.145098039216);
+			return new Vec3d(0.325490196078, 0.286274509804, 0.149019607843);
 		}
 
 		@Override

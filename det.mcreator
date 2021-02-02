@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "DIMENSION": 1,
-    "ENTITY": 4
+    "ENTITY": 4,
+    "DIMENSION": 1
   },
   "mod_elements": [
     {
@@ -193,6 +193,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "1.12.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.det",
     "lockBaseModFiles": false
   },

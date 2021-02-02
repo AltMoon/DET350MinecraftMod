@@ -38,8 +38,8 @@ public class BlockBlackTar extends ElementsDET.ModElement {
 	private Fluid fluid;
 	public BlockBlackTar(ElementsDET instance) {
 		super(instance, 3);
-		fluid = new Fluid("blacktar", new ResourceLocation("det:blocks/tar_still"), new ResourceLocation("det:blocks/tar_flow")).setLuminosity(0)
-				.setDensity(1153).setViscosity(7000).setGaseous(false);
+		fluid = new Fluid("blacktar", new ResourceLocation("det:blocks/wasteland_tar"), new ResourceLocation("det:blocks/wasteland_tar"))
+				.setLuminosity(0).setDensity(1153).setViscosity(7000).setGaseous(false);
 	}
 
 	@Override

@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "det:blocks/wasteland_dust_bottom",
-    "up": "det:blocks/wasteland_dust_bottom",
-    "north": "det:blocks/wasteland_dust_bottom",
-    "east": "det:blocks/wasteland_dust_bottom",
-    "south": "det:blocks/wasteland_dust_bottom",
-    "west": "det:blocks/wasteland_dust_bottom",
-    "particle": "det:blocks/wasteland_dust_bottom"
+    "down": "det:blocks/wasteland_dirt",
+    "up": "det:blocks/wasteland_dirt",
+    "north": "det:blocks/wasteland_dirt",
+    "east": "det:blocks/wasteland_dirt",
+    "south": "det:blocks/wasteland_dirt",
+    "west": "det:blocks/wasteland_dirt",
+    "particle": "det:blocks/wasteland_dirt"
   }
 }
